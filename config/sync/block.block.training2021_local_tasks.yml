@@ -1,0 +1,22 @@
+uuid: ff82999a-a241-403f-b883-2597b3389708
+langcode: en
+status: true
+dependencies:
+  theme:
+    - training2021
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: training2021_local_tasks
+theme: training2021
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

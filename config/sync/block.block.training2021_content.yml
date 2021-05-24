@@ -1,0 +1,22 @@
+uuid: fdbfd0d7-7a3a-42db-b8ee-654d9b2ac975
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - training2021
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: training2021_content
+theme: training2021
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

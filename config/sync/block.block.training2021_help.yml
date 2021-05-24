@@ -1,0 +1,22 @@
+uuid: f61bede4-424c-44f9-b83d-d8a3e41800e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - training2021
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: training2021_help
+theme: training2021
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

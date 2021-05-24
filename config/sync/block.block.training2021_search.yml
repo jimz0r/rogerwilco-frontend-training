@@ -1,0 +1,23 @@
+uuid: 96efb2e3-7a33-4bca-a83c-3d0349766ba2
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - training2021
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: training2021_search
+theme: training2021
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

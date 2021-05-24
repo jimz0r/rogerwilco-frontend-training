@@ -1,0 +1,25 @@
+uuid: 98e43eba-1937-4941-91f5-888aacc1b947
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - training2021
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: training2021_branding
+theme: training2021
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
