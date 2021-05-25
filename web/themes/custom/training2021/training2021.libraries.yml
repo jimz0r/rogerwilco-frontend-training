@@ -1,0 +1,16 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/main.css: {}
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+component.card:
+  version: VERSION
+  css:
+    component:
+      css/component/card.css: {}

@@ -1,0 +1,28 @@
+name: Training 2021 - Kitty Edition
+type: theme
+description: 'Demo for frontend cat herding'
+core_version_requirement: ^8.8 || ^9
+base theme: classy
+screenshot: images/screenshot.jpg
+logo: images/logo.svg
+
+libraries:
+  - core/normalize
+  - training2021/global
+
+libraries-override:
+  classy/base: false
+
+regions:
+  sidebar_first: 'Left sidebar'  
+  sidebar_bottom: 'Bottom sidebar'
+  content: 'Content'
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  footer: 'Footer'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: 'Breadcrumb'
